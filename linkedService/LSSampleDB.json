@@ -1,0 +1,17 @@
+{
+	"name": "LSSampleDB",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "kebedesqlserver.database.windows.net",
+			"database": "sampledb",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "kebede",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEQyQzBBMUYwLTE0NEEtNEEwQi1CNEExLTE3NERFNTlFREY1RF9mMTBhZDFkYS02NzU4LTRlODAtOTMxMy0zYzIxNTQ0ZjIwMDciDQp9"
+		}
+	}
+}

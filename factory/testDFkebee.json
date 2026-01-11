@@ -1,0 +1,9 @@
+{
+	"name": "testDFkebee",
+	"location": "westus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "dbafc33e-b3c1-4e34-a188-8e7099e512f5",
+		"tenantId": "c1e4470d-840d-411b-8e86-43b8f72d0a6f"
+	}
+}
